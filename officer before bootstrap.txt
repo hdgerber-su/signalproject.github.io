@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <title>Officer Page</title>
+
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+                <link rel="stylesheet" href="./signal.style.css">
+<style>
+    
+    section {
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      background: rgb(240, 166, 28);
+      padding: 20px;
+    }
+    article {
+      display: flex;
+      flex-flow: row wrap;
+      -webkit-flex: 3;
+      -ms-flex: 3;
+      flex: 3;
+      background-color: rgb(240, 166, 28);
+      padding: 10px;
+    }
+</style>
+</head>
+
+    <div class="topnav">
+        <a href="./individual.project.index.html">Home</a>
+        <a href="./history.html">History</a>
+        <a href="./officer.html">Officer</a>
+    </div>
+
+<body>
+
+  <header>
+    <div class="container">
+        <div class="header">
+            <h1>Officer</h1>
+            <p>What to know about Army Signal Officers</p>
+    </div>
+</div>
+</header>
+
+<main>
+   <section>
+        <div class="col ml-1 card">
+            <img class="responsive" src="./media/officer.jpg" alt="image">
+            <h3>Ranks of an Army Officer</h3>
+            <p>Ranks change from enlisted to officer. When you first commission as an officer you will have the rank of a second LT.</p>
+            <p>0-1 is another term in refrence to your rank as a 2nd LT.</p>
+        </div>
+    </section>
+    
+      <article>
+        <div class= "article">
+            <div class="col ml-1 card">
+
+                    <div class="col card">
+                        <h2>Being a Leader</h2>
+                            <p>When you are an officer you aren't the one kicking down doors necessarily. You role is to be a leader but in a more managerial type of way. Signal officers have to know their people and their equipment to be successful.</p>
+                    </div>
+
+                <div class="row">
+            
+                        <div class="row">
+                            <div class="col card">
+                                <img class="responsive" src="./media/nco.jpg" alt="image">
+                                <h3> Signal Battalion</h3>
+                                <p>If you are a signal officer assigned to a signal battalion, you will be working with other signal soldiers for the majority of your work. Larger bases usually have signal battalion and this is a nice option as an officer because you are with your branch of people.</p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col card">
+                                <img class="responsive" src="./media/radio.jpg" alt="image">
+                                <h3> Signal Attachment</h3>
+                                <p>When you are a signal officer in charge of an attachment this means you will be working with combat arms. Everything the army does is in support to the infantry, and combat arm branches. This type of officer job will require more physically strenuous work and being out in the field often.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                        <div class="row">
+                            <div class="col card">
+                                <img class="responsive" src="./media/busy.png" alt="image">
+                                <h3> ROTC/OCS</h3>
+                                <p>You must have a college degree to be an officer. You can either do Reserve Officer Training Corps (ROTC) or Officer Candidate School (OCS). ROTC is when you train to be an officer while in college, OCS is when you aquire your degree yourself and then join the military.</p>
+                            </div>
+                        </div>     
+                    </div>
+                </div>
+     </article>
+
+<section>
+    <div class="col ml-1 card">
+      <div class="row">
+            <div class="col card">
+                <img class="responsive" src="./media/color.jpg" alt="image">
+                <h3> Order of Rank</h3>
+                <ul>
+                    <li>2nd Lt</li>
+                    <li>1st Lt</li>
+                    <li>Captain</li>
+                    <li>Major</li>
+                    <li>Lt Colonel</li>
+                    <li>Colonel</li>
+                    <li>General (1-5 stars)</li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+  </section>
+
+</main>
+
+  <footer>
+      <div class="footer">
+        <p>I hope you enjoy the website</p>
+      </div>
+  </footer>
+
+
+</body>
+</html>

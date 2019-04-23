@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Source+Sans+Pro" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css?family=Ewert|Montserrat" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+main {
+    display: -webkit-flex;
+    display: flex;
+    text-align: center;
+  }
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+}
+
+
+img.responsive {
+    width: 100%;
+    height: auto;
+}
+
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid gold;
+  }
+
+header {
+    
+    color: rgb(235, 122, 57);
+    text-align: center;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+
+div.header {
+    padding: 5px;
+}
+
+div.header p {
+    margin: 0;
+}
+
+div.header h1 {
+    margin: 5px 0;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+  }
+
+
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+    background-color: orange;
+  }
+  
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: orange;
+    padding-left: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid orangered;
+    align-content: center;
+    width: 500px;
+  
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /*responsive page setting*/
+
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* when the screen is less than 400px wide, this will make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+/* Below is ALL navigation tab info */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+
+  .topnav a {
+    
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+

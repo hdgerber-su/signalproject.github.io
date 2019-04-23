@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>History Page</title>
+
+        <link rel="icon" type="image/ico" href="./media/signal.jpg" />
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <style>
+
+          .col-md-4 {
+              -ms-flex: 0 0 33.333333%;
+              flex: 0 0 33.333333%;
+              background-color: orange;
+              padding: 30px;
+              border: 10px solid white;
+              max-width: 33.333333%;
+          }  
+    </style>    
+</head>
+
+<body>
+
+  <div class="topnav">
+    <a href="./individual.project.index.html">Home</a>
+    <a href="./history.html">History</a>
+    <a href="./officer.html">Officer</a>
+    <a href="./enlisted.html">Enlisted</a>
+  </div>
+
+  <header> 
+    <div class="header">
+            <link rel="stylesheet" href="./signal.style.css">
+      <h1>History</h1>
+      <p>History of the US Army Signal Corps</p>
+    </div>
+  
+  <!-- alert-->
+    <div class="alert alert-success alert-dismissible">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      <strong>Success!</strong> I now invite you to dive into the rich history of Signal
+    </div>
+  </header>
+
+  <div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-4">
+          <h2>The Beginning of the American Civil War</h2>
+          <h4>21 June 1860</h4>
+        <img class="responsive" alt="Men with flags" src="./media/oldmen.jpg" style="height:350px;">
+        <p>June 1860 Congress established the US Army Signal Corps. This was also during the American Civil War.</p>
+        <p>The Signal Corps main way of communicating was by semaphore, a flag signaling system. However, by the end of the war, it had developed a telegraph network to communicate from coast to coast.</p>
+      </div>
+      <div class="col-md-4">
+          <h3>Messenger Pigeons</h3>
+      <img class="rounded-circle" alt="message bird" src="./media/bird.jpg" style="height:200px;">
+        <p>The Signal Corps first used a wigwag system of visual signaling which was developed by Albert James Myer. Following the Civil War, the Signal Corps became incharge of Army photography and established a messenger pigeon service.</p>
+        <p>During World War I and World War II, carrier pigeons were used to transport messages back to their home coop behind the lines. When they landed, wires in the coop would sound a bell or buzzer and a soldier of the Signal Corps would know a message had arrived. He would go to the coop, remove the message from the canister, and send it to its destination by telegraph, field phone, or personal messenger.</p>
+      </div>
+      <div class="col-md-4">
+          <h2>Late 19th Century Equipment</h2>
+          <img class="responsive" alt="soldiers in basket" src="./media/birdbasket.png">
+          <p>At this time Signal was using telephones, heliographs, and observation balloons to help communicate during the war.</p>
+      </div>
+    </div>
+  </div>
+
+<!-- Input the carousel here in body -->
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+      
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./media/pic.jpg" alt="Eye Glass" width="1100" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="./media/spanish.jpg" alt="Searching" width="1100" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="./media/oldmen.jpg" alt="Flags" width="1100" height="500">
+          </div>
+          <div class="carousel-item">
+              <img src="./media/nco.jpg" alt="Horses" width="1100" height="500">
+            </div>
+      </div>
+      
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+<footer>
+  <div class="footer">
+    <p>This information was brought to us by Encyclopedia.com! </p>
+  </div>
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home Page</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="./signal.style.css">
+
+<style>
+
+    section {
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      background: #ff6804;
+      padding: 20px;
+    }
+    
+    article {
+      display: flex;
+      flex-flow: row wrap;
+      -webkit-flex: 3;
+      -ms-flex: 3;
+      flex: 3;
+      background-color:#EF380A;
+      padding: 10px;
+    }
+</style>
+</head>
+
+<div class="topnav">
+    <a href="./individual.project.index.html">Home</a>
+    <a href="./history.html">History</a>
+    <a href="./officer.html">Officer</a>
+</div>
+
+  <body>
+
+      <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+          <div class="col-md-5 p-lg-5 mx-auto my-5">
+            <h1 class="display-4 font-weight-normal">United States Signal Corps</h1>
+            <p class="lead font-weight-normal">Everything You Need to Know</p>
+            <a class="btn btn-outline-secondary" href="#">Discover More</a>
+          </div>
+          <div class="product-device shadow-sm d-none d-md-block"></div>
+          <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+        </div>
+
+    <header>
+        <div class="container">
+            <div class="header">
+                <h1>United States Signal Corps</h1>
+                <p>~Everything You Need to Know~</p>
+                <p>Holly Gerber-George</p>
+        </div>
+    </div>
+</header>
+
+
+
+<main>
+    <section>
+        <div class="col ml-1 card">
+            <img class="responsive" src="./media/climb.jpg" alt="image">
+            <h3>Why is it Important?</h3>
+              <p>Without signal the army would not be able to communicate and effectively use its technology, man power, and resources. The Signal Corps puts the army on a higher level of professional successfulness.</p>
+        </div>
+    </section>
+
+      <article>
+        <div class= "article">
+            <div class="col card">
+                <div class="row">
+            
+                        <div class="row">
+                            <div class="col card">
+                                <img class="responsive" src="./media/symbol.jpg" alt="image"> 
+                                <h2>What is Signal?</h2>
+                                <p>Signal Corps Soldiers develop the technical skills necessary to automate, transmit and receive voice and data information to keep the Army informed and ready to respond.</p>
+                                <p>Signals also involves designing and installing data satellite communications networks, microwave, switching, messaging, video-teleconferencing, visual information, and other related systems. Signals Corps personnel supports tactical, strategic and sustaining base communications, information processing and management systems into a seamless global information network. </p>
+                              </div>
+                        </div>
+
+
+                </div>
+                        <div class="row">
+                            <div class="col card">
+                                <img class="responsive" src="./media/boys.jpg" alt="image">
+                                <h2>Signal Background</h2>
+                                <p>The United States Army Signal Corps (USASC) is a division of the Department of the Army that creates and manages communications and information systems for the command and control of combined arms forces. </p>
+            <p>It was established in 1860, the brainchild of Major Albert J. Myer, and had an important role in the American Civil War. Over its history, it had the initial responsibility for portfolios and new technologies that were eventually transferred to other U.S. government entities. Such responsibilities included military intelligence, weather forecasting, and aviation.</p>
+                            </div>
+                        </div>     
+            </div>
+          </div>
+     </article>
+
+  <section>
+  
+    <div class="col ml-1 card">
+            <img class="responsive" src="./media/him.jpg" alt="image" style="height:200px;">
+            <h3> Fun Facts</h3>
+            <p>Because of its expertise in ballooning, the Signal Corps was placed in charge of military aviation and the development of military aircraft, including the first procurement of an army aircraft, which was purchased from the Wright brothers in 1908.</p>
+    </div>
+  </section>
+
+</main>
+
+  <footer>
+      <div class="footer">
+        <p>I hope you enjoy the website</p>
+      </div>
+  </footer>
+
+
+</body>
+</html>
