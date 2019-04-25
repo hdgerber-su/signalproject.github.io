@@ -1,6 +1,0 @@
-CSS         -   5
-Design -        6
-Responsive -    2
-Wave Test -     1
-
-Good job
